@@ -1,0 +1,26 @@
+body {
+	background: #2DBCEC;
+	font-size: 18px;
+}
+
+p, h3 {
+	color: white;
+}
+h3, input {
+	margin-bottom: 20px;
+}
+form.get-in-touch textarea {
+	height: 100px;
+}
+$gaps: 5em;
+.blurb {
+	margin-top: 30px;
+	margin-bottom: $gaps;
+}
+.logo {
+		width: 35%;
+		margin: $gaps auto;
+}
+img {
+	max-width: 100%;
+}

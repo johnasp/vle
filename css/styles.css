@@ -1,0 +1,23 @@
+body {
+  background: #2DBCEC;
+  font-size: 18px; }
+
+p, h3 {
+  color: white; }
+
+h3, input {
+  margin-bottom: 20px; }
+
+form.get-in-touch textarea {
+  height: 100px; }
+
+.blurb {
+  margin-top: 30px;
+  margin-bottom: 5em; }
+
+.logo {
+  width: 35%;
+  margin: 5em auto; }
+
+img {
+  max-width: 100%; }
