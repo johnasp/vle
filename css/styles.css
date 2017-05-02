@@ -26,7 +26,7 @@ img {
     .dashboard .admin .sign-out {
       padding-left: 8px;
       padding-right: 8px; }
-  .dashboard .row1 {
+  .dashboard .top-row, .dashboard .middle-row, .dashboard .bottom-row {
     border: 1px solid red; }
 
 /* REGISTATION */

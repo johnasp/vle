@@ -2,7 +2,9 @@
 img {
 	max-width: 100%;
 }
-
+.container {
+	
+}
 /* DASHBOARD */
 
 $h-col: #555;
@@ -41,7 +43,7 @@ $h-col: #555;
 			padding-right: 8px;
 		}
 	}
-	.row1 {
+	.top-row, .middle-row, .bottom-row {
 		border: 1px solid red;
 	}
 }
