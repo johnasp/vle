@@ -1,26 +1,88 @@
-body {
-	background: #2DBCEC;
-	font-size: 18px;
-}
 
-p, h3 {
-	color: white;
-}
-h3, input {
-	margin-bottom: 20px;
-}
-form.get-in-touch textarea {
-	height: 100px;
-}
-$gaps: 5em;
-.blurb {
-	margin-top: 30px;
-	margin-bottom: $gaps;
-}
-.logo {
-		width: 35%;
-		margin: $gaps auto;
-}
 img {
 	max-width: 100%;
 }
+
+/* DASHBOARD */
+
+$h-col: #555;
+
+.dashboard {
+	background: #eaeaea;
+	header {
+		background: #fff;
+		padding: 20px;
+		a, span, i {
+			color: $h-col;
+			font-size: 18px;
+		}
+		.row {
+			display: flex;
+			align-items: center;
+		}
+	}
+	.nav {
+		:first-child {
+			border-right: 1px solid $h-col;
+			padding-right: 12px;
+		}
+		a {
+			padding-left: 8px;
+		}
+	}
+	.admin {
+		text-align: right;
+		span {
+			border-right: 1px solid $h-col;
+			padding-right: 12px;
+		}
+		.sign-out {
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+	}
+	.row1 {
+		border: 1px solid red;
+	}
+}
+
+
+
+/* REGISTATION */
+$gaps: 5em;
+
+.reg {
+	background: #2DBCEC;
+	font-size: 18px;
+	#inputValidation {
+		width: 30px;
+	}
+	.blurb {
+		margin-top: 30px;
+		margin-bottom: $gaps;
+	}
+	.logo {
+			width: 35%;
+			margin: $gaps auto;
+	}
+	p, h3 {
+		color: white;
+	}
+	h3, input {
+		margin-bottom: 20px;
+	}
+	.get-in-touch {
+		textarea {
+			height: 100px;
+		}
+		#submit {
+			background: transparent;
+			color: white;
+			border: 2px solid white;
+			margin-left: 10px;
+			padding: 6px 12px;
+		}
+	}
+}
+
+

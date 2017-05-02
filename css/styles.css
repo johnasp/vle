@@ -1,23 +1,55 @@
-body {
-  background: #2DBCEC;
-  font-size: 18px; }
-
-p, h3 {
-  color: white; }
-
-h3, input {
-  margin-bottom: 20px; }
-
-form.get-in-touch textarea {
-  height: 100px; }
-
-.blurb {
-  margin-top: 30px;
-  margin-bottom: 5em; }
-
-.logo {
-  width: 35%;
-  margin: 5em auto; }
-
 img {
   max-width: 100%; }
+
+/* DASHBOARD */
+.dashboard {
+  background: #eaeaea; }
+  .dashboard header {
+    background: #fff;
+    padding: 20px; }
+    .dashboard header a, .dashboard header span, .dashboard header i {
+      color: #555555;
+      font-size: 18px; }
+    .dashboard header .row {
+      display: flex;
+      align-items: center; }
+  .dashboard .nav :first-child {
+    border-right: 1px solid #555555;
+    padding-right: 12px; }
+  .dashboard .nav a {
+    padding-left: 8px; }
+  .dashboard .admin {
+    text-align: right; }
+    .dashboard .admin span {
+      border-right: 1px solid #555555;
+      padding-right: 12px; }
+    .dashboard .admin .sign-out {
+      padding-left: 8px;
+      padding-right: 8px; }
+  .dashboard .row1 {
+    border: 1px solid red; }
+
+/* REGISTATION */
+.reg {
+  background: #2DBCEC;
+  font-size: 18px; }
+  .reg #inputValidation {
+    width: 30px; }
+  .reg .blurb {
+    margin-top: 30px;
+    margin-bottom: 5em; }
+  .reg .logo {
+    width: 35%;
+    margin: 5em auto; }
+  .reg p, .reg h3 {
+    color: white; }
+  .reg h3, .reg input {
+    margin-bottom: 20px; }
+  .reg .get-in-touch textarea {
+    height: 100px; }
+  .reg .get-in-touch #submit {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px;
+    padding: 6px 12px; }
