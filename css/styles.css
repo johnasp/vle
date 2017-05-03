@@ -1,22 +1,41 @@
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto; }
+
 img {
   max-width: 100%; }
 
 /* DASHBOARD */
-.top-row p {
+.box-number {
   font-size: 32px;
   margin-bottom: 0; }
+  .box-number p {
+    margin-bottom: 0; }
 
-.total-users {
+.constrain {
+  padding: 2em !important; }
+
+.l-blue {
   color: #2dbcec; }
 
-.comp-quizzes {
+.green {
   color: #00a4a4; }
 
-.quizzes-prog {
+.pink {
   color: #eb007c; }
 
 .align-left {
   text-align: left !important; }
+
+.glyphicon-cog {
+  font-size: 108px;
+  padding: 20px 0; }
+
+.list-unstyled li {
+  display: inline; }
+
+.to-do li {
+  display: inline-block; }
 
 .a-a, .messages {
   margin-bottom: 20px; }
@@ -52,15 +71,19 @@ img {
     background: white;
     text-align: center;
     padding: 12px;
-    overflow: hidden; }
+    overflow: hidden;
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea; }
   .dashboard h3 {
     text-transform: capitalize;
     font-size: 14px;
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
     padding: 3px 0 3px 8px;
-    background: #444;
-    color: white; }
+    background: #fff;
+    border: 1px solid #eaeaea;
+    color: #444; }
 
 /* REGISTATION */
 .reg {
