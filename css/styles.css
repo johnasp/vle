@@ -2,11 +2,31 @@ img {
   max-width: 100%; }
 
 /* DASHBOARD */
+.top-row p {
+  font-size: 32px;
+  margin-bottom: 0; }
+
+.total-users {
+  color: #2dbcec; }
+
+.comp-quizzes {
+  color: #00a4a4; }
+
+.quizzes-prog {
+  color: #eb007c; }
+
+.align-left {
+  text-align: left !important; }
+
+.a-a, .messages {
+  margin-bottom: 20px; }
+
 .dashboard {
   background: #eaeaea; }
   .dashboard header {
     background: #fff;
-    padding: 20px; }
+    padding: 20px;
+    margin-bottom: 20px; }
     .dashboard header a, .dashboard header span, .dashboard header i {
       color: #555555;
       font-size: 18px; }
@@ -27,7 +47,20 @@ img {
       padding-left: 8px;
       padding-right: 8px; }
   .dashboard .top-row, .dashboard .middle-row, .dashboard .bottom-row {
-    border: 1px solid red; }
+    margin-bottom: 20px; }
+  .dashboard .box {
+    background: white;
+    text-align: center;
+    padding: 12px;
+    overflow: hidden; }
+  .dashboard h3 {
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+    padding: 3px 0 3px 8px;
+    background: #444;
+    color: white; }
 
 /* REGISTATION */
 .reg {

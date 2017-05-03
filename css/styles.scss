@@ -8,12 +8,39 @@ img {
 /* DASHBOARD */
 
 $h-col: #555;
+$l-blue: #2DBCEC;
+$d-blue: #5380C2;
+$pink: #EB007C;
+$green: #00A4A4;
 
+.top-row {
+	p {
+		font-size: 32px;
+		margin-bottom: 0;
+	}
+}
+
+.total-users {
+	color: $l-blue;
+}
+.comp-quizzes {
+	color: $green;
+}
+.quizzes-prog {
+	color: $pink;
+}
+.align-left {
+	text-align: left!important;
+}
+.a-a, .messages {
+	margin-bottom: 20px;
+}
 .dashboard {
 	background: #eaeaea;
 	header {
 		background: #fff;
 		padding: 20px;
+		margin-bottom: 20px;
 		a, span, i {
 			color: $h-col;
 			font-size: 18px;
@@ -43,9 +70,26 @@ $h-col: #555;
 			padding-right: 8px;
 		}
 	}
+
 	.top-row, .middle-row, .bottom-row {
-		border: 1px solid red;
+		margin-bottom: 20px;
 	}
+	.box {
+		background: white;
+		text-align: center;
+		padding: 12px;
+		overflow: hidden;
+	}
+		h3 {
+			text-transform: capitalize;
+			font-size: 14px;
+			margin: 0;
+			font-weight: normal;
+			
+			padding: 3px 0 3px 8px;
+			background: #444;
+			color: white;
+		}
 }
 
 
