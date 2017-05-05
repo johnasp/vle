@@ -1,5 +1,7 @@
 .question-bank {
 	background: white;
+	border: 1px solid red;
+	margin-bottom: 40px;
 	header {
 		overflow: hidden;
 		border: 1px solid black;	
@@ -20,4 +22,7 @@
 	label {
 		float: right;
 	}
+}
+.q-table {
+	background: white;
 }
