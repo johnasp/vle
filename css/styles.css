@@ -44,11 +44,12 @@ header.main {
   margin-top: 30px; }
 
 .constrain {
-  padding: 2em !important; }
+  padding: 0.4em 2em !important; }
 
 footer li {
-  font-size: 24px;
-  margin-right: 12px; }
+  font-size: 18px;
+  margin-right: 12px;
+  color: white; }
 
 .l-blue {
   color: #2dbcec; }
@@ -90,6 +91,18 @@ footer li {
 .dashboard .glyphicon-cog {
   font-size: 108px;
   padding: 20px 0; }
+
+.middle-row .equal-h {
+  min-height: 318px; }
+.middle-row h4 {
+  font-weight: normal;
+  margin-bottom: 40px;
+  font-size: 16px; }
+
+.bottom-row .equal-h {
+  min-height: 185px; }
+.bottom-row .bar-large img {
+  padding-top: 16px; }
 
 .box {
   background: rgba(255, 255, 255, 0.7);
