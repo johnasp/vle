@@ -3,6 +3,8 @@ $l-blue: #2DBCEC;
 $d-blue: #5380C2;
 $pink: #EB007C;
 $green: #00A4A4;
+$border: #eaeaea;
+$h1: 24px;
 
 .wrapper {
 	max-width: 1500px;
@@ -45,10 +47,21 @@ header.main {
 	}
 	.sign-out {
 		padding-left: 8px;
-		padding-right: 8px;
+		padding-right: 32px;
 	}
+    i {
+        font-size: 22px;
+    }
 }
-
+.box {
+	background: rgba(255, 255, 255, 0.7)  ;
+	text-align: center;
+	padding: 12px;
+	overflow: hidden;
+	border-right: 1px solid $border; 
+	border-left: 1px solid $border; 
+	border-bottom: 1px solid $border; 
+}
 
 
 

@@ -3,12 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
     <script src="https://use.fontawesome.com/53c5a5742b.js"></script>
-    <!--  <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/styles.css">   
     <title>Smart VLE</title>
   </head>
@@ -38,61 +35,80 @@
             <section class="question-bank">
                     <header>
                         <h1 class="pull-left">Question Bank</h1> 
-                        <a href="" class="btn btn-lg pull-right">Add question</a>
+                        <a href="" class="btn btn-md pull-right">Add question</a>
                     </header>
-                    <div class="container">
-                    <h4>Filter questions</h4>
+                    <div class="box">
+                        <h4>Filter questions</h4>
                         <div class="row">
                             <div class="col-xs-2">
                                 <label for="q-type">Questions type</label>
                             </div>
-                            <div class="col-xs-4">
-                                <p>Icons</p>
-                         
+                            <div class="col-xs-4 key">
+                                <img src="img/ico-yn-on.svg" alt="Yes or no">
+                                <img src="img/icon-xsq.svg" alt="Checkbox">
+                                <img src="img/ico-tf.svg" alt="True or False">
+                                <img src="img/ico-rect.svg" alt="A rectangle">
+
                             </div>
                             <div class="col-xs-2">
                                 <label for="s-level">Select level</label>
                             </div>
-                            <div class="col-xs-4">
-                                <p>Icons</p>
+                            <div class="col-xs-4 key">
+                                <img src="img/ico-1.svg" alt="Level 1">
+                                <img src="img/ico-2-on.svg" alt="Level 2">
+                                <img src="img/ico-3.svg" alt="Level 3">
+                                <img src="img/ico-4.svg" alt="Level 4">
+                                <img src="img/ico-5.svg" alt="Level 5">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-xs-2">
-                                <label for="q-type">Category</label>
+                                <label for="q-category">Category</label>
                             </div>
-                            <div class="col-xs-4">
-                                <input type="text" name="q-type" >
-                         
+                            <div class="col-xs-4 styled-select slate">
+                               <select required id="q-category">
+                                  <option value="">Select a category</option>
+                                  <option value="volvo">Volvo</option>
+                                  <option value="saab">Saab</option>
+                                  <option value="mercedes">Mercedes</option>
+                                  <option value="audi">Audi</option>
+                                </select>
+
                             </div>
                             <div class="col-xs-2">
                                 <label for="free-text">Free text search</label>
                             </div>
                             <div class="col-xs-4">
-                                <input type="text" name="free-text">
+                                <input type="text" id="free-text" placeholder="Type keyword">
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-xs-2">
-                                <label for="q-type">Competance</label>
+                                <div class="col-xs-2">
+                                    <label for="q-competance">Competance</label>
+                                </div>
+                                <div class="col-xs-4 styled-select slate">
+                                    <select required id="q-competance">
+                                      <option value="">Select a competance</option>
+                                      <option value="volvo">Volvo</option>
+                                      <option value="saab">Saab</option>
+                                      <option value="mercedes">Mercedes</option>
+                                      <option value="audi">Audi</option>
+                                    </select>
+
+                                </div>
+                                <div class="col-xs-2">
+                                    <label for="my-questions">My questions only</label>
+                                </div>
+                                <div class="col-xs-1 styled-select slate">
+                                    <input type="checkbox" id="my-questions">
+                                </div>
+                                <div class="col-xs-3 but-filters">
+                                    <button type="button" class="btn btn-default btn-lg">Reset Filter</button>
+                                    <button type="button" class="btn btn-primary btn-lg apply">Apply Filter</button>
+                                </div>
                             </div>
-                            <div class="col-xs-4">
-                                <input type="text">
-                         
-                            </div>
-                            <div class="col-xs-2">
-                                <label for="my-questions">My questions only</label>
-                            </div>
-                            <div class="col-xs-1">
-                                <input type="checkbox" name="my-questions">
-                            </div>
-                            <div class="col-xs-3">
-                                <button type="button" class="btn btn-default">Reset Filter</button>
-                                <button type="button" class="btn btn-primary">Apply Filter</button>
-                            </div>
-                        </div>
                     </div>
             </section> 
 
@@ -112,32 +128,41 @@
                             <td class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita officiis corporis, incidunt rem, tempore mollitia explicabo dolorum veniam, at maxime in accusamus inventore nulla voluptatibus, facilis hic cum quasi debitis.</td>
                             <td class="second">Maths</td>
                             <td class="third">Evaluate expressions</td>
-                            <td>2</td>
-                            <td>Y/N</td>
-                            <td>pen</td>
+                            <td><img src="img/ico-2.svg" alt="Level 2"></td>
+                            <td><img src="img/ico-yn.svg" alt="Yes/No"></td>
+                            <td><i class="fa fa-pencil" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></td>
                         </tr>
                         <tr>
                             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita officiis corporis, incidunt rem, tempore facilis hic cum quasi debitis.</td>
                             <td>English</td>
                             <td>Use correct grammar</td>
-                            <td>1</td>
-                            <td>Y/N</td>
-                            <td>pen</td>
+                            <td><img src="img/ico-1.svg" alt="Level 1"></td>
+                            <td><img src="img/ico-yn.svg" alt="Yes/No"></td>
+                            <td><i class="fa fa-pencil" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></td>
                         </tr>   
-                        <tr>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita officiis corporis, incidunt rem, tempore mollitia explicabo dolorum veniam, at maxime in accusamus inventore nulla voluptatibus, facilis hic cum quasi debitis.</td>
-                            <td>Maths</td>
-                            <td>Evaluate expressions</td>
-                            <td>2</td>
-                            <td>Y/N</td>
-                            <td>pen</td>
-                        </tr>                                             
+                                           
                     </tbody>
                 </table>
             </section>
 
             <footer class="container-fluid"> 
-                <ul class="list-unstyled pull-right">
+               <div class="controls row">
+                  <div class="col-xs-6">
+                      <i class="fa fa-backward" aria-hidden="true"></i>
+                      <i class="fa fa-play fa-rotate-180" aria-hidden="true"></i>
+                      <span>2</span>
+                      <i class="fa fa-play" aria-hidden="true"></i>
+                      <i class="fa fa-backward fa-rotate-180" aria-hidden="true"></i>
+                  </div>
+                  <div class="col-xs-6 paginate">
+                      <span>10</span>
+                      <span>25</span>
+                      <span>50 per page</span>
+                  </div>
+                   
+               </div>
+               
+                <ul class="list-unstyled text-center">
                     <li>
                         <span class="sr-only">LinkedIn</span>
                         <span class="fa-stack fa-lg">
@@ -158,7 +183,7 @@
                         <span class="sr-only">Facebook</span>
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
-                            <i class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i></li>
+                            <i class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i>
                         </span>
                     </li>
                     

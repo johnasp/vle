@@ -32,7 +32,18 @@ header.main {
     padding-right: 12px; }
   .admin .sign-out {
     padding-left: 8px;
-    padding-right: 8px; }
+    padding-right: 32px; }
+  .admin i {
+    font-size: 22px; }
+
+.box {
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 12px;
+  overflow: hidden;
+  border-right: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea; }
 
 .box-number {
   font-size: 32px;
@@ -104,15 +115,6 @@ footer li {
 .bottom-row .bar-large img {
   padding-top: 16px; }
 
-.box {
-  background: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  padding: 12px;
-  overflow: hidden;
-  border-right: 1px solid #eaeaea;
-  border-left: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea; }
-
 .reg {
   background: #2DBCEC;
   font-size: 18px; }
@@ -137,23 +139,58 @@ footer li {
     margin-left: 10px;
     padding: 6px 12px; }
 
+.add-question .box {
+  text-align: left !important; }
+.add-question header {
+  background: #2dbcec; }
+  .add-question header h1 {
+    color: white;
+    text-transform: uppercase;
+    padding: 12px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 0; }
+.add-question img {
+  width: 50px; }
+
 .question-bank {
-  background: white;
   margin-bottom: 40px; }
   .question-bank header {
     overflow: hidden;
-    padding: 12px; }
+    padding: 12px;
+    background: white;
+    border-bottom: 1px solid #eaeaea; }
     .question-bank header a {
       background: #00a4a4;
       color: white; }
   .question-bank h1 {
     text-transform: uppercase;
-    font-size: 34px;
-    margin: 0; }
+    font-size: 24px;
+    margin: 0;
+    padding: 4px 0 0 8px; }
   .question-bank .row {
     margin-bottom: 20px; }
   .question-bank label {
     float: right; }
+  .question-bank .box {
+    text-align: left; }
+  .question-bank h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px; }
+  .question-bank .key img {
+    width: 50px; }
+  .question-bank input[type=text] {
+    padding: 6px 12px;
+    width: 100%; }
+  .question-bank input[type=checkbox] {
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2); }
+  .question-bank label[for=s-level], .question-bank label[for=q-type] {
+    padding-top: 12px; }
 
 .q-table {
   background: white; }
@@ -165,7 +202,58 @@ footer li {
     height: 32px; }
   .q-table table tr {
     text-decoration: uppercase; }
+  .q-table td img {
+    width: 40px; }
+  .q-table td i {
+    font-size: 26px;
+    color: #666;
+    font-weight: normal; }
+    .q-table td i:first-child {
+      padding-right: 8px; }
+
+.btn-default {
+  background: #eb007c;
+  border: none;
+  color: white; }
+  .btn-default:hover {
+    background: #9f0054;
+    color: white; }
+
+.btn-primary {
+  background: #2dbcec;
+  border: none; }
+  .btn-primary:hover {
+    background: #1191bc; }
+
+.apply {
+  margin-left: 6px; }
+
+.but-filters {
+  text-align: right; }
 
 .equal {
   display: -webkit-flex;
   display: flex; }
+
+.styled-select select {
+  background: white;
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px;
+  /* If you add too much padding here, the options won't show in IE */
+  width: 250px; }
+
+.styled-select.slate select {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  height: 34px;
+  width: 250px; }
+
+footer .controls {
+  margin-bottom: 40px; }
+  footer .controls .paginate {
+    text-align: right; }
+    footer .controls .paginate :not(:last-child) {
+      border-right: 1px solid black;
+      padding-right: 8px; }

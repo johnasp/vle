@@ -1,1 +1,1 @@
-$(function(){$(".box").matchHeight(!1)});
+;

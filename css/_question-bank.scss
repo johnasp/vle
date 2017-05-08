@@ -1,10 +1,31 @@
+.add-question {
+    .box {
+        text-align: left!important;
+    }
+    header {
+        background: $l-blue;
+        h1 {
+            color: white;
+            text-transform: uppercase;
+            padding: 12px;
+            font-size: $h1;
+            font-weight: normal;
+            margin-bottom: 0;
+        }
+    }
+    img {
+        width: 50px;
+    }
+
+}
+
 .question-bank {
-	background: white;
 	margin-bottom: 40px;
 	header {
 		overflow: hidden;
-
 		padding: 12px;
+        background: white;
+        border-bottom: 1px solid $border;
 		a {
 			background: $green;
 			color: white;
@@ -12,8 +33,9 @@
 	}
 	h1 {
 		text-transform: uppercase;
-		font-size: 34px;
+		font-size: 24px;
 		margin: 0;
+        padding: 4px 0 0 8px;
 	}
 	.row {
 		margin-bottom: 20px;
@@ -21,21 +43,110 @@
 	label {
 		float: right;
 	}
+    .box {
+        text-align: left;
+    }
+    h4 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .key {
+        img {
+            width: 50px;
+        }
+    }
+    input[type=text] {
+        padding: 6px 12px;
+        width: 100%;
+    }
+    input[type=checkbox] {
+      -ms-transform: scale(2); 
+      -moz-transform: scale(2); 
+      -webkit-transform: scale(2); 
+      -o-transform: scale(2); 
+      transform: scale(2); 
+    }
+    label[for=s-level],  label[for=q-type] {
+        padding-top: 12px;
+    }
 }
+
 .q-table {
 	background: white;
 	.container {
 		padding: 0;
 	}
-    th {width: 60px;
+    th {
+        width: 60px;
         text-transform: uppercase;
         height: 32px;
     }
     table tr {
         text-decoration: uppercase;
-    }  
+    } 
+    td img {
+        width: 40px;
+    }
+    td i {
+        font-size: 26px;
+        &:first-child {
+            padding-right: 8px;
+        }
+        color: #666;
+        font-weight: normal;
+    }
+}
+
+
+.btn-default {
+    background: $pink;
+    border: none;
+    color: white;
+    &:hover {
+        background: darken($pink,15%);
+        color: white;
+    }
+}
+.btn-primary {
+    background: $l-blue;
+    border: none;
+    &:hover {
+        background: darken($l-blue,15%);
+    }
+}
+.apply {
+    margin-left: 6px;
+}
+.but-filters {
+    text-align: right;
 }
 .equal {  
     display: -webkit-flex;
     display: flex;
+}
+.styled-select select {
+   background: white;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 250px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 250px;
+}
+footer .controls {
+    margin-bottom: 40px;
+    .paginate {  
+        text-align: right;
+        :not(:last-child) {
+            border-right: 1px solid black;
+            padding-right: 8px;
+        }
+    }
 }
