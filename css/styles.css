@@ -6,21 +6,21 @@ img {
   max-width: 100%; }
 
 body {
-  background: #eaeaea; }
+  background: url("../img/bg.jpg") no-repeat center top; }
 
 header.main {
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 40px auto;
   background: white; }
   header.main a, header.main span, header.main i {
-    color: #555;
+    color: #555555;
     font-size: 18px; }
   header.main .row {
     display: flex;
     align-items: center; }
 
 .nav :first-child {
-  border-right: 1px solid #555;
+  border-right: 1px solid #555555;
   padding-right: 12px; }
 .nav a {
   padding-left: 8px; }
@@ -28,7 +28,7 @@ header.main {
 .admin {
   text-align: right; }
   .admin span {
-    border-right: 1px solid #555;
+    border-right: 1px solid #555555;
     padding-right: 12px; }
   .admin .sign-out {
     padding-left: 8px;
@@ -51,22 +51,28 @@ footer li {
   margin-right: 12px; }
 
 .l-blue {
-  color: #2DBCEC; }
+  color: #2dbcec; }
 
 .green {
-  color: #00A4A4; }
+  color: #00a4a4; }
 
 .pink {
-  color: #EB007C; }
+  color: #eb007c; }
 
 .align-left {
   text-align: left !important; }
 
 .list-unstyled li {
-  display: inline; }
+  display: inline;
+  line-height: 1.9em; }
 
 .to-do li {
   display: inline-block; }
+.to-do .done {
+  color: #eb007c;
+  text-decoration: line-through; }
+.to-do .urgent {
+  color: #00a4a4; }
 
 .a-a, .messages {
   margin-bottom: 20px; }
@@ -77,17 +83,16 @@ footer li {
   text-transform: capitalize;
   font-size: 14px;
   margin: 0;
-  font-weight: bold;
   padding: 3px 0 3px 8px;
   background: #fff;
   border: 1px solid #eaeaea;
-  color: #444; }
+  color: #555; }
 .dashboard .glyphicon-cog {
   font-size: 108px;
   padding: 20px 0; }
 
 .box {
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
   text-align: center;
   padding: 12px;
   overflow: hidden;
@@ -121,14 +126,12 @@ footer li {
 
 .question-bank {
   background: white;
-  border: 1px solid red;
   margin-bottom: 40px; }
   .question-bank header {
     overflow: hidden;
-    border: 1px solid black;
     padding: 12px; }
     .question-bank header a {
-      background: #00A4A4;
+      background: #00a4a4;
       color: white; }
   .question-bank h1 {
     text-transform: uppercase;
@@ -141,3 +144,15 @@ footer li {
 
 .q-table {
   background: white; }
+  .q-table .container {
+    padding: 0; }
+  .q-table th {
+    width: 60px;
+    text-transform: uppercase;
+    height: 32px; }
+  .q-table table tr {
+    text-decoration: uppercase; }
+
+.equal {
+  display: -webkit-flex;
+  display: flex; }

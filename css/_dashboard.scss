@@ -29,9 +29,19 @@ footer li {
 }
 .list-unstyled li {
 	display: inline;
+    line-height: 1.9em;
 }
-.to-do li {
-	display: inline-block;
+.to-do {
+    li {
+        display: inline-block;
+    }
+    .done {
+        color: $pink;
+        text-decoration: line-through;
+    }
+    .urgent {
+        color: $green;
+    }
 }
 .a-a, .messages {
 	margin-bottom: 20px;
@@ -44,19 +54,18 @@ footer li {
 		text-transform: capitalize;
 		font-size: 14px;
 		margin: 0;
-		font-weight: bold;
 		padding: 3px 0 3px 8px;
 		background: #fff;
 		border: 1px solid #eaeaea; 
-		color: #444;
+		color: #555;
 	}
 	.glyphicon-cog {
 		font-size: 108px;
 		padding: 20px 0;
-	}	
+	}
 }
 .box {
-	background: white;
+	background: rgba(255, 255, 255, 0.7)  ;
 	text-align: center;
 	padding: 12px;
 	overflow: hidden;

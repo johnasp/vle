@@ -12,11 +12,12 @@ img {
 	max-width: 100%; 
 }
 body {
-	background: #eaeaea;
+    background: url("../img/bg.jpg") no-repeat center top;  
+
 }
 header.main {
 	padding: 20px;
-	margin-bottom: 20px;
+    margin: 40px auto;
 	background: white;
 	a, span, i {
 		color: $h-col;

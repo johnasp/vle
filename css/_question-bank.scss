@@ -1,10 +1,9 @@
 .question-bank {
 	background: white;
-	border: 1px solid red;
 	margin-bottom: 40px;
 	header {
 		overflow: hidden;
-		border: 1px solid black;	
+
 		padding: 12px;
 		a {
 			background: $green;
@@ -25,4 +24,18 @@
 }
 .q-table {
 	background: white;
+	.container {
+		padding: 0;
+	}
+    th {width: 60px;
+        text-transform: uppercase;
+        height: 32px;
+    }
+    table tr {
+        text-decoration: uppercase;
+    }  
+}
+.equal {  
+    display: -webkit-flex;
+    display: flex;
 }
