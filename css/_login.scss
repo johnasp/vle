@@ -1,0 +1,53 @@
+.login {
+    color: white;
+    margin-top: 110px;
+    a {
+        color: white;
+    }
+    .container {
+        width: 600px;
+    }
+    form {
+        position: relative;
+        background: $d-blue;
+        margin-top: 100px;
+        padding:120px 40px 40px 40px;
+    }
+    .form-logo {
+        width: 50%;
+        position: absolute;
+        top: -180px;
+        left: 140px;
+    }
+    .input-group {
+        margin-bottom: 20px;
+    }
+    .input-group-addon {
+        background: $l-blue;
+        color: white;
+        border: none;
+        border-radius: 0;
+    }
+    input[type='text'], input[type='password'] {
+        border-radius: 0;
+        border: none;
+    }
+    button {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 0;
+    }
+    label[for='remember'] {
+        font-weight: normal;
+    }
+    h2 {
+        color: black;
+        text-align: center;
+        font-weight: normal;
+    }
+    .register  {
+        width: 80%;
+        margin: 40px auto;
+        display: inherit;
+    }
+}

@@ -100,24 +100,6 @@
         font-weight: normal;
     }
 }
-
-
-.btn-default {
-    background: $pink;
-    border: none;
-    color: white;
-    &:hover {
-        background: darken($pink,15%);
-        color: white;
-    }
-}
-.btn-primary {
-    background: $l-blue;
-    border: none;
-    &:hover {
-        background: darken($l-blue,15%);
-    }
-}
 .apply {
     margin-left: 6px;
 }

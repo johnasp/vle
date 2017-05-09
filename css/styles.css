@@ -1,3 +1,35 @@
+.l-blue {
+  color: #2dbcec; }
+
+.green {
+  color: #00a4a4; }
+
+.pink {
+  color: #eb007c; }
+
+.btn-default {
+  background: #eb007c;
+  border: none;
+  color: white; }
+  .btn-default:hover {
+    background: #9f0054;
+    color: white; }
+
+.btn-primary {
+  background: #2dbcec;
+  border: none; }
+  .btn-primary:hover {
+    background: #1191bc; }
+
+.btn-info {
+  background: #5380c2;
+  border: none; }
+  .btn-info:hover {
+    background: #345b94; }
+
+.btn {
+  color: white; }
+
 .wrapper {
   max-width: 1500px;
   margin: 0 auto; }
@@ -18,8 +50,15 @@ header.main {
   header.main .row {
     display: flex;
     align-items: center; }
+  header.main .sign-out {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px; }
 
-.nav :first-child {
+.nav :not(:last-child) {
   border-right: 1px solid #555555;
   padding-right: 12px; }
 .nav a {
@@ -45,9 +84,6 @@ header.main {
   border-left: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea; }
 
-.btn-default {
-  color: white; }
-
 .box-number {
   font-size: 32px;
   margin-bottom: 0; }
@@ -64,15 +100,6 @@ footer li {
   font-size: 18px;
   margin-right: 12px;
   color: white; }
-
-.l-blue {
-  color: #2dbcec; }
-
-.green {
-  color: #00a4a4; }
-
-.pink {
-  color: #eb007c; }
 
 .align-left {
   text-align: left !important; }
@@ -216,20 +243,6 @@ footer li {
     .q-table td i:first-child {
       padding-right: 8px; }
 
-.btn-default {
-  background: #eb007c;
-  border: none;
-  color: white; }
-  .btn-default:hover {
-    background: #9f0054;
-    color: white; }
-
-.btn-primary {
-  background: #2dbcec;
-  border: none; }
-  .btn-primary:hover {
-    background: #1191bc; }
-
 .apply {
   margin-left: 6px; }
 
@@ -262,3 +275,45 @@ footer .controls {
     footer .controls .paginate :not(:last-child) {
       border-right: 1px solid black;
       padding-right: 8px; }
+
+.login {
+  color: white;
+  margin-top: 110px; }
+  .login a {
+    color: white; }
+  .login .container {
+    width: 600px; }
+  .login form {
+    position: relative;
+    background: #5380c2;
+    margin-top: 100px;
+    padding: 120px 40px 40px 40px; }
+  .login .form-logo {
+    width: 50%;
+    position: absolute;
+    top: -180px;
+    left: 140px; }
+  .login .input-group {
+    margin-bottom: 20px; }
+  .login .input-group-addon {
+    background: #2dbcec;
+    color: white;
+    border: none;
+    border-radius: 0; }
+  .login input[type='text'], .login input[type='password'] {
+    border-radius: 0;
+    border: none; }
+  .login button {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0; }
+  .login label[for='remember'] {
+    font-weight: normal; }
+  .login h2 {
+    color: black;
+    text-align: center;
+    font-weight: normal; }
+  .login .register {
+    width: 80%;
+    margin: 40px auto;
+    display: inherit; }
