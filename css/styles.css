@@ -45,6 +45,9 @@ header.main {
   border-left: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea; }
 
+.btn-default {
+  color: white; }
+
 .box-number {
   font-size: 32px;
   margin-bottom: 0; }
@@ -152,6 +155,8 @@ footer li {
     margin-bottom: 0; }
 .add-question img {
   width: 50px; }
+.add-question .answers .input-group {
+  margin-bottom: 10px; }
 
 .question-bank {
   margin-bottom: 40px; }
