@@ -145,6 +145,13 @@ footer li {
 .bottom-row .bar-large img {
   padding-top: 16px; }
 
+.dash-nav img {
+  display: inline;
+  width: 24%; }
+
+.dash-nav-small {
+  padding-top: 35px; }
+
 .reg {
   background: #2DBCEC;
   font-size: 18px; }
