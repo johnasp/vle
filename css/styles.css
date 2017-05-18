@@ -1,14 +1,14 @@
 .l-blue {
-  color: #2DBCEC; }
+  color: #2dbcec; }
 
 .green {
-  color: #00A4A4; }
+  color: #00a4a4; }
 
 .pink {
-  color: #EB007C; }
+  color: #eb007c; }
 
 .btn-default {
-  background: #EB007C;
+  background: #eb007c;
   border: none;
   color: white; }
   .btn-default:hover {
@@ -16,13 +16,13 @@
     color: white; }
 
 .btn-primary {
-  background: #2DBCEC;
+  background: #2dbcec;
   border: none; }
   .btn-primary:hover {
     background: #1191bc; }
 
 .btn-info {
-  background: #5380C2;
+  background: #5380c2;
   border: none; }
   .btn-info:hover {
     background: #345b94; }
@@ -38,7 +38,7 @@ img {
   max-width: 100%; }
 
 body {
-  background: #ccc url("../img/bg.jpg") no-repeat center top;
+  background: #eaeaea;
   font-family: 'Titillium Web', sans-serif; }
 
 header.main {
@@ -46,7 +46,7 @@ header.main {
   margin: 0;
   background: white; }
   header.main a, header.main span, header.main i {
-    color: #555;
+    color: #555555;
     font-size: 18px; }
   header.main .row {
     display: flex;
@@ -60,7 +60,7 @@ header.main {
     margin-right: 8px; }
 
 .nav :not(:last-child) {
-  border-right: 1px solid #555;
+  border-right: 1px solid #555555;
   padding-right: 12px; }
 .nav a {
   padding-left: 8px; }
@@ -68,7 +68,7 @@ header.main {
 .admin {
   text-align: right; }
   .admin span {
-    border-right: 1px solid #555;
+    border-right: 1px solid #555555;
     padding-right: 12px; }
   .admin .sign-out {
     padding-left: 8px;
@@ -78,7 +78,7 @@ header.main {
 
 .box {
   font-size: 26px;
-  background: #ECF0F1;
+  background: #fff;
   text-align: center;
   padding: 12px;
   overflow: hidden;
@@ -86,24 +86,33 @@ header.main {
   border-left: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea; }
 
+/********************
+BREAKPOINTS
+********************/
 nav#dash-nav {
   background: rgba(0, 0, 0, 0.7);
-  font-size: 16px;
   margin-bottom: 40px;
-  font-size: 16px; }
+  font-size: 13px;
+  text-transform: uppercase; }
   nav#dash-nav a, nav#dash-nav i {
     color: lightgrey; }
+  @media (min-width: 768px) {
+    nav#dash-nav {
+      font-size: 18px; } }
   nav#dash-nav ul {
     margin: 0; }
   nav#dash-nav li {
-    width: 12%;
+    width: 24%;
     display: inline-block;
     text-align: center;
     padding: 12px 0;
-    line-height: 1.4em !important;
-    border-right: 1px solid grey; }
-    nav#dash-nav li:first-child {
-      border-left: 1px solid grey; }
+    line-height: 1.4em !important; }
+    @media (min-width: 768px) {
+      nav#dash-nav li {
+        width: 12%;
+        border-right: 1px solid grey; }
+        nav#dash-nav li:first-child {
+          border-left: 1px solid grey; } }
   nav#dash-nav span {
     display: block; }
 
@@ -134,25 +143,27 @@ footer li {
 .to-do li {
   display: inline-block; }
 .to-do .done {
-  color: #EB007C;
+  color: #eb007c;
   text-decoration: line-through; }
 .to-do .urgent {
-  color: #00A4A4; }
+  color: #00a4a4; }
 
 .a-a, .messages {
   margin-bottom: 20px; }
 
+.dashboard .col-xs-12 {
+  margin-bottom: 20px; }
 .dashboard .row {
-  margin-bottom: 40px; }
+  margin-bottom: 0; }
 .dashboard h3 {
-  text-transform: uppercase;
-  font-size: 14px;
+  text-transform: capitalize;
+  font-size: 16px;
   margin: 0;
   padding: 3px 0 3px 8px;
-  background: #fff;
   border: 1px solid #eaeaea;
-  color: #555;
-  text-align: center; }
+  color: white;
+  text-align: center;
+  background: #5680c1; }
 .dashboard .glyphicon-cog {
   font-size: 108px;
   padding: 20px 0; }
@@ -203,7 +214,7 @@ footer li {
 .add-question .box {
   text-align: left !important; }
 .add-question header {
-  background: #2DBCEC; }
+  background: #2dbcec; }
   .add-question header h1 {
     color: white;
     text-transform: uppercase;
@@ -224,7 +235,7 @@ footer li {
     background: white;
     border-bottom: 1px solid #eaeaea; }
     .question-bank header a {
-      background: #00A4A4;
+      background: #00a4a4;
       color: white; }
   .question-bank h1 {
     text-transform: uppercase;
@@ -316,7 +327,7 @@ footer .controls {
     width: 600px; }
   .login form {
     position: relative;
-    background: #5380C2;
+    background: #5380c2;
     margin-top: 100px;
     padding: 120px 40px 40px 40px; }
   .login .form-logo {
@@ -327,7 +338,7 @@ footer .controls {
   .login .input-group {
     margin-bottom: 20px; }
   .login .input-group-addon {
-    background: #2DBCEC;
+    background: #2dbcec;
     color: white;
     border: none;
     border-radius: 0; }

@@ -51,10 +51,8 @@ img {
 	max-width: 100%; 
 }
 body {
-    background: #ccc url("../img/bg.jpg") no-repeat center top ;  
+    background: #eaeaea /*url("../img/bg.jpg") no-repeat center top*/ ;  
     font-family: 'Titillium Web', sans-serif;
-
-
 }
 header.main {
 	padding: 20px;
@@ -102,7 +100,7 @@ header.main {
 }
 .box {
     font-size: 26px;
-    background: #ECF0F1 ;
+    background: #fff;
 	text-align: center;
 	padding: 12px;
 	overflow: hidden;
@@ -110,8 +108,9 @@ header.main {
 	border-left: 1px solid $border; 
 	border-bottom: 1px solid $border; 
 }
-
-@import '_dashboard';
+@import '_breakpoints';
+@import '_dashboard'; 
 @import '_registration';
 @import '_question-bank';
 @import '_login';
+
