@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
     <script src="https://use.fontawesome.com/53c5a5742b.js"></script>
-    <link rel="stylesheet" href="css/styles.css">   
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700" rel="stylesheet">  
     <title>Smart VLE</title>
   </head>
   <body>
-        <header class="main">
+    <header class="main">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-2">
@@ -29,7 +30,7 @@
             </div>     
         </header>
         
-        <nav id="dash-nav" class="container-fluid">
+    <nav id="dash-nav" class="container-fluid">
             <div class="container" >
                 <ul class="list-unstyled">
                     <li>
@@ -89,129 +90,94 @@
             </div>
         </nav>
         
-        <div class="dashboard">
-            <section class="top-row container">
+    <div class="dashboard">
+            <section class="container">
                 <div class="row">
-                    <div class="col-xs-2 data">
+                    <div class="col-xs-4">
                         <h3>Total users</h3>
                         <div class="box l-blue box-number">
                             <p>2,497</p>
                         </div>
                     </div>
-                    <div class="col-xs-2 data">
+                    <div class="col-xs-4">
                         <h3>Completed quizzes</h3>
                         <div class="box green box-number">
                             <p>312</p>
                         </div>                   
                     </div>
-                    <div class="col-xs-2 data">
+                    <div class="col-xs-4">
                         <h3>Quizzes in progress</h3>
                         <div class="box pink box-number">
                             <p>137</p>
                         </div>                  
                     </div>
                 </div>
+                <div class="row">
+                        <div class="col-xs-4">
+                            <h3>Average pass rate</h3>
+                            <div class="box l-blue box-number">
+                                <p><img src="img/radial1.gif" alt=""></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <h3>Assessments Outstanding</h3>
+                            <div class="box green box-number">
+                                <p><img src="img/radial2.gif" alt=""></p>
+                            </div>                   
+                        </div>
+                        <div class="col-xs-4 ">
+                            <h3>Average pass rate per participant</h3>
+                            <div class="box pink box-number">
+                                <p><img src="img/radial3.gif" alt=""></p>
+                            </div>                  
+                        </div>
+                    </div>           
             </section>
 
-            <section class="middle-row container">
+            <section class="container">
                 <div class="row">
                     <div class="col-xs-4">
-                        <h3>To do list</h3>
-                        <div class="box align-left equal-h">
-                            <ul class="list-unstyled to-do">
-                                <li>10/04/17 - Need to add questions about English</li>
-                                <li>10/04/17 - Contact Dave about Assessments</li>
-                                <li>12/04/17 - Register new users from ABC Company</li>
-                                <li class="done">10/04/17 - Need to add questions about English</li>
-                                <li class="urgent">10/04/17 - Contact Dave about Assessments</li>
-                                <li class="done">12/04/17 - Register new users from ABC Company</li>
-                                <li>10/04/17 - Need to add questions about English</li>
-                                <li class="done">10/04/17 - Contact Dave about Assessments</li>
-                                <li>12/04/17 - Register new users from ABC Company</li>
-                            </ul>                           
+                        <h3>Average pass mark per assessment</h3>
+                        <div class="box">
+                            <p>Bar chart here</p>
                         </div>
-                    </div>
+                     </div>
 
                     <div class="col-xs-4">            
-                        <h3>Performance</h3>
-                        <div class="charts box equal-h">
-                            <div class="col-xs-6">
-                                <h4>Graph title</h4>
-                                <img src="img/bar-chart.svg" alt="Bar graph">    
-                            </div>
-                            <div class="col-xs-6">
-                                <h4>Graph title</h4>
-                                <img src="img/pie-chart.svg" alt="Pie chart">
-                            </div>
+                        <h3>Average number of participant assessments</h3>
+                        <div class="box">
+                           pie chart here
                         </div>
                     </div>
 
                     <div class="col-xs-4">
-                        <div class="row">
-                                <div class="most-active col-xs-12">
-                                 <h3>Most active assessors</h3>
-                                    <div class="box align-left a-a">
-                                        <ul class="list-unstyled">
-                                            <li>Garret Parman</li>
-                                            <li>Philomena Wang</li>  
-                                            <li>Albina Heinemann</li>  
-                                            <li>Deena Cohen</li>  
-                                            <li>Eliana Mohler</li>  
-                                            <li>Carin Maxon</li>  
-                                            <li>Tai Mccubbin</li>  
-                                            <li>Fairy Hockman</li>  
-                                            <li>Hilario Petrone</li>  
-                                            <li>Tamala Bilderback</li>  
-                                            <li>Bruce Jeon</li>  
-                                            <li>Josephina Bugarin</li>  
-                                        </ul>
-                                    </div>
-
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <h3>Add question</h3>
-                                        <div class="box constrain"> 
-                                            <img src="img/ico-add-question.svg" alt="">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xs-6">
-                                        <h3>Add competance</h3>
-                                        <div class="box constrain">
-                                            <img src="img/ico-add-competance.svg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
+                        <h3>Levels represented by questions</h3>
+                        <div class="box">
+                            <p>Donut here</p>
                         </div>
                     </div>
 
                 </div>   
             </section>
 
-            <section class="bottom-row container">
+            <section class="container">
                 <div class="row">
-                    <div class="col-xs-6">
-                        <h3>Questions over time</h3>
-                        <div class="box equal-h">
-                            <img src="img/bar-chart-large.svg" alt="">
+                    <div class="col-xs-4">
+                        <h3>Competancie covered by the system</h3>
+                        <div class="box">
+                            <p>Pie chart in here</p>
                         </div>
                     </div>
-                    <div class="col-xs-3">
-                        <h3>Settings</h3>
-                        <div class="box equal-h">
-                            <i class="glyphicon glyphicon-cog"></i>
+                    <div class="col-xs-4">
+                        <h3>Types of resources</h3>
+                        <div class="box">
+                            <p>horizontal bar chart</p>
                         </div>
                     </div>
-                    <div class="col-xs-3">
-                        <h3>Messages</h3>
-                        <div class="box messages box-number pink">
-                            <p>12</p>
-                        </div>
-                        <h3>Quizzes in progress</h3>
-                        <div class="box box-number l-blue">
-                            <p>137</p>
+                    <div class="col-xs-4">
+                        <h3>Average number of participants per assessment</h3>
+                        <div class="box">
+                            <p>Pie chart chart here</p>
                         </div>
                     </div>
                 </div>
@@ -253,7 +219,7 @@
             </li>
         </ul>
     </footer>
-
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 

@@ -51,12 +51,14 @@ img {
 	max-width: 100%; 
 }
 body {
-    background: url("../img/bg.jpg") no-repeat center top;  
+    background: #ccc url("../img/bg.jpg") no-repeat center top ;  
+    font-family: 'Titillium Web', sans-serif;
+
 
 }
 header.main {
 	padding: 20px;
-    margin: 40px auto 0 auto;
+    margin: 0;
 	background: white;
 	a, span, i {
 		color: $h-col;
@@ -99,7 +101,8 @@ header.main {
     }
 }
 .box {
-	background: rgba(255, 255, 255, 0.7)  ;
+    font-size: 26px;
+    background: #ECF0F1 ;
 	text-align: center;
 	padding: 12px;
 	overflow: hidden;

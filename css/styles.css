@@ -38,11 +38,12 @@ img {
   max-width: 100%; }
 
 body {
-  background: url("../img/bg.jpg") no-repeat center top; }
+  background: #cccccc url("../img/bg.jpg") no-repeat center top;
+  font-family: 'Titillium Web', sans-serif; }
 
 header.main {
   padding: 20px;
-  margin: 40px auto 0 auto;
+  margin: 0;
   background: white; }
   header.main a, header.main span, header.main i {
     color: #555555;
@@ -76,7 +77,8 @@ header.main {
     font-size: 22px; }
 
 .box {
-  background: rgba(255, 255, 255, 0.7);
+  font-size: 26px;
+  background: #ecf0f1;
   text-align: center;
   padding: 12px;
   overflow: hidden;
@@ -87,8 +89,7 @@ header.main {
 nav#dash-nav {
   background: rgba(0, 0, 0, 0.7);
   font-size: 16px;
-  width: 1600px;
-  margin: 0 auto;
+  margin-bottom: 40px;
   font-size: 16px; }
   nav#dash-nav a, nav#dash-nav i {
     color: lightgrey; }
@@ -107,7 +108,7 @@ nav#dash-nav {
     display: block; }
 
 .box-number {
-  font-size: 32px;
+  font-size: 50px;
   margin-bottom: 0; }
   .box-number p {
     margin-bottom: 0; }
@@ -141,16 +142,17 @@ footer li {
 .a-a, .messages {
   margin-bottom: 20px; }
 
-.dashboard .top-row, .dashboard .middle-row, .dashboard .bottom-row {
-  margin-bottom: 20px; }
+.dashboard .row {
+  margin-bottom: 40px; }
 .dashboard h3 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 14px;
   margin: 0;
   padding: 3px 0 3px 8px;
   background: #fff;
   border: 1px solid #eaeaea;
-  color: #555; }
+  color: #555;
+  text-align: center; }
 .dashboard .glyphicon-cog {
   font-size: 108px;
   padding: 20px 0; }
