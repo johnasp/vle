@@ -1,14 +1,14 @@
 .l-blue {
-  color: #2dbcec; }
+  color: #2DBCEC; }
 
 .green {
-  color: #00a4a4; }
+  color: #00A4A4; }
 
 .pink {
-  color: #eb007c; }
+  color: #EB007C; }
 
 .btn-default {
-  background: #eb007c;
+  background: #EB007C;
   border: none;
   color: white; }
   .btn-default:hover {
@@ -16,13 +16,13 @@
     color: white; }
 
 .btn-primary {
-  background: #2dbcec;
+  background: #2DBCEC;
   border: none; }
   .btn-primary:hover {
     background: #1191bc; }
 
 .btn-info {
-  background: #5380c2;
+  background: #5380C2;
   border: none; }
   .btn-info:hover {
     background: #345b94; }
@@ -38,7 +38,7 @@ img {
   max-width: 100%; }
 
 body {
-  background: #cccccc url("../img/bg.jpg") no-repeat center top;
+  background: #ccc url("../img/bg.jpg") no-repeat center top;
   font-family: 'Titillium Web', sans-serif; }
 
 header.main {
@@ -46,7 +46,7 @@ header.main {
   margin: 0;
   background: white; }
   header.main a, header.main span, header.main i {
-    color: #555555;
+    color: #555;
     font-size: 18px; }
   header.main .row {
     display: flex;
@@ -60,7 +60,7 @@ header.main {
     margin-right: 8px; }
 
 .nav :not(:last-child) {
-  border-right: 1px solid #555555;
+  border-right: 1px solid #555;
   padding-right: 12px; }
 .nav a {
   padding-left: 8px; }
@@ -68,7 +68,7 @@ header.main {
 .admin {
   text-align: right; }
   .admin span {
-    border-right: 1px solid #555555;
+    border-right: 1px solid #555;
     padding-right: 12px; }
   .admin .sign-out {
     padding-left: 8px;
@@ -78,7 +78,7 @@ header.main {
 
 .box {
   font-size: 26px;
-  background: #ecf0f1;
+  background: #ECF0F1;
   text-align: center;
   padding: 12px;
   overflow: hidden;
@@ -134,10 +134,10 @@ footer li {
 .to-do li {
   display: inline-block; }
 .to-do .done {
-  color: #eb007c;
+  color: #EB007C;
   text-decoration: line-through; }
 .to-do .urgent {
-  color: #00a4a4; }
+  color: #00A4A4; }
 
 .a-a, .messages {
   margin-bottom: 20px; }
@@ -203,7 +203,7 @@ footer li {
 .add-question .box {
   text-align: left !important; }
 .add-question header {
-  background: #2dbcec; }
+  background: #2DBCEC; }
   .add-question header h1 {
     color: white;
     text-transform: uppercase;
@@ -224,7 +224,7 @@ footer li {
     background: white;
     border-bottom: 1px solid #eaeaea; }
     .question-bank header a {
-      background: #00a4a4;
+      background: #00A4A4;
       color: white; }
   .question-bank h1 {
     text-transform: uppercase;
@@ -316,7 +316,7 @@ footer .controls {
     width: 600px; }
   .login form {
     position: relative;
-    background: #5380c2;
+    background: #5380C2;
     margin-top: 100px;
     padding: 120px 40px 40px 40px; }
   .login .form-logo {
@@ -327,7 +327,7 @@ footer .controls {
   .login .input-group {
     margin-bottom: 20px; }
   .login .input-group-addon {
-    background: #2dbcec;
+    background: #2DBCEC;
     color: white;
     border: none;
     border-radius: 0; }

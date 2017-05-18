@@ -11,178 +11,168 @@
     <title>Smart VLE</title>
   </head>
   <body>
+
     <header class="main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-2">
-                        <img src="img/logo.svg" alt="Smart Virtual Learning Environment">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-1">
+                    <img src="img/logo.svg" alt="Smart Virtual Learning Environment">
+                </div>
+                <div class="col-xs-11 text-right">
+                    <span>Welcome <strong>Shelia Carr</strong></span>
+                    <a href="" class="sign-out">Sign out</a>
+                    <a href="" class="sr-only setting">Setting</a>
+                    <i class="glyphicon glyphicon-cog"></i>
+                </div>
+            </div>
+        </div>     
+    </header>
+        
+    <nav id="dash-nav">
+        <div class="container-fluid" >
+            <ul class="list-unstyled">
+                <li>
+                    <a href="">
+                        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                        <span>Competance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i>
+                        <span>Question Bank</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>
+                        <span>Resource</span>
+                    </a>
+                </li>                    
+                <li>
+                    <a href="">
+                        <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+                        <span>Assessment</span>
+                    </a>
+                </li>   
+
+                <li>
+                    <a href="">
+                        <i class="fa fa-folder-open-o fa-2x" aria-hidden="true"></i>
+                        <span>Reports</span>
+                    </a>
+                </li>    
+
+                <li>
+                    <a href="">
+                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>                                                                         
+                                                
+                <li>
+                    <a href="">
+                        <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>  
+
+                <li>
+                    <a href="">
+                        <i class="fa fa-comment-o fa-2x" aria-hidden="true"></i>
+                        <span>Messages</span>
+                    </a>
+                </li>                                                                 
+             </ul>
+        </div>
+    </nav>
+        
+    <section class="dashboard">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Total users</h3>
+                    <div class="box l-blue box-number">
+                        <p>2,497</p>
                     </div>
-                    <div class="col-xs-5 nav">
-                 
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Completed quizzes</h3>
+                    <div class="box green box-number">
+                        <p>312</p>
+                    </div>                   
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Quizzes in progress</h3>
+                    <div class="box pink box-number">
+                        <p>137</p>
+                    </div>                  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Average pass rate</h3>
+                    <div class="box l-blue box-number">
+                        <p><img src="img/radial1.gif" alt=""></p>
                     </div>
-                    <div class="col-xs-5 text-right">
-                        <span>Welcome <strong>Shelia Carr</strong></span>
-                        <a href="" class="sign-out">Sign out</a>
-                        <a href="" class="sr-only setting">Setting</a>
-                        <i class="glyphicon glyphicon-cog"></i>
-                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Assessments Outstanding</h3>
+                    <div class="box green box-number">
+                        <p><img src="img/radial2.gif" alt=""></p>
+                    </div>                   
+                </div>
+                <div class="col-xs-12 col-sm-4 ">
+                    <h3>Average pass rate per participant</h3>
+                    <div class="box pink box-number">
+                        <p><img src="img/radial3.gif" alt=""></p>
+                    </div>                  
                 </div>
             </div>     
-        </header>
-        
-    <nav id="dash-nav" class="container-fluid">
-            <div class="container" >
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="">
-                            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-                            <span>Competance</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i>
-                            <span>Question Bank</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>
-                            <span>Resource</span>
-                        </a>
-                    </li>                    
-                    <li>
-                        <a href="">
-                            <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
-                            <span>Assessment</span>
-                        </a>
-                    </li>   
-
-                    <li>
-                        <a href="">
-                            <i class="fa fa-folder-open-o fa-2x" aria-hidden="true"></i>
-                            <span>Reports</span>
-                        </a>
-                    </li>    
-
-                    <li>
-                        <a href="">
-                            <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
-                            <span>Settings</span>
-                        </a>
-                    </li>                                                                         
-                                                    
-                    <li>
-                        <a href="">
-                            <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
-                            <span>Contact</span>
-                        </a>
-                    </li>  
-
-                    <li>
-                        <a href="">
-                            <i class="fa fa-comment-o fa-2x" aria-hidden="true"></i>
-                            <span>Messages</span>
-                        </a>
-                    </li>                                       
-                                      
-                 </ul>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Average pass mark per assessment</h3>
+                    <div class="box">
+                        <p>Bar chart here</p>
+                    </div>
+                 </div>
+                <div class="col-xs-12 col-sm-4">            
+                    <h3>Average number of participant assessments</h3>
+                    <div class="box">
+                       pie chart here
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Levels represented by questions</h3>
+                    <div class="box">
+                        <p>Donut here</p>
+                    </div>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Competancie covered by the system</h3>
+                    <div class="box">
+                        <p>Pie chart in here</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Types of resources</h3>
+                    <div class="box">
+                        <p>horizontal bar chart</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h3>Average number of participants per assessment</h3>
+                    <div class="box">
+                        <p>Pie chart chart here</p>
+                    </div>
+                </div>
             </div>
-        </nav>
-        
-    <div class="dashboard">
-            <section class="container">
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3>Total users</h3>
-                        <div class="box l-blue box-number">
-                            <p>2,497</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Completed quizzes</h3>
-                        <div class="box green box-number">
-                            <p>312</p>
-                        </div>                   
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Quizzes in progress</h3>
-                        <div class="box pink box-number">
-                            <p>137</p>
-                        </div>                  
-                    </div>
-                </div>
-                <div class="row">
-                        <div class="col-xs-4">
-                            <h3>Average pass rate</h3>
-                            <div class="box l-blue box-number">
-                                <p><img src="img/radial1.gif" alt=""></p>
-                            </div>
-                        </div>
-                        <div class="col-xs-4">
-                            <h3>Assessments Outstanding</h3>
-                            <div class="box green box-number">
-                                <p><img src="img/radial2.gif" alt=""></p>
-                            </div>                   
-                        </div>
-                        <div class="col-xs-4 ">
-                            <h3>Average pass rate per participant</h3>
-                            <div class="box pink box-number">
-                                <p><img src="img/radial3.gif" alt=""></p>
-                            </div>                  
-                        </div>
-                    </div>           
-            </section>
+        </div><!-- Container-fluid -->
 
-            <section class="container">
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3>Average pass mark per assessment</h3>
-                        <div class="box">
-                            <p>Bar chart here</p>
-                        </div>
-                     </div>
 
-                    <div class="col-xs-4">            
-                        <h3>Average number of participant assessments</h3>
-                        <div class="box">
-                           pie chart here
-                        </div>
-                    </div>
-
-                    <div class="col-xs-4">
-                        <h3>Levels represented by questions</h3>
-                        <div class="box">
-                            <p>Donut here</p>
-                        </div>
-                    </div>
-
-                </div>   
-            </section>
-
-            <section class="container">
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3>Competancie covered by the system</h3>
-                        <div class="box">
-                            <p>Pie chart in here</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Types of resources</h3>
-                        <div class="box">
-                            <p>horizontal bar chart</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Average number of participants per assessment</h3>
-                        <div class="box">
-                            <p>Pie chart chart here</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-      </div>
+    </section>
 
     <footer class="container"> 
         <ul class="list-unstyled pull-right">
